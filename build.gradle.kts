@@ -30,6 +30,7 @@ dependencies {
   implementation("${quarkusPluginId}:quarkus-smallrye-openapi")
   implementation("${quarkusPluginId}:quarkus-messaging-rabbitmq")
 
+
   compileOnly("org.projectlombok:lombok:${lombokVersion}")
   annotationProcessor("org.projectlombok:lombok:${lombokVersion}")
 

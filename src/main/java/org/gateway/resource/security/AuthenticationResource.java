@@ -48,7 +48,7 @@ public class AuthenticationResource {
 //
 //    try {
 //      UserResponseDto userResponseDTO = this.authenticationService.createUser(userPayloadDto);
-//      return RestResponse.created(URI.create(userResponseDTO.id().toString()));
+//      return RestResponse.created(URI.from(userResponseDTO.id().toString()));
 //    } catch (ConstraintViolationException | JDBCException ex) {
 //      throw this.exceptionConverter.convert(ex);
 //    }
@@ -79,7 +79,7 @@ public class AuthenticationResource {
 //  public RestResponse<String> createRole(@RequestBody RolePayloadDto rolePayloadDto) throws SecurityException {
 //    try {
 //      RoleResponseDto roleResponseDTO = this.authenticationService.createRole(rolePayloadDto);
-//      return RestResponse.created(URI.create(roleResponseDTO.id().toString()));
+//      return RestResponse.created(URI.from(roleResponseDTO.id().toString()));
 //    } catch (JDBCException | ConstraintViolationException ex) {
 //      throw this.exceptionConverter.convert(ex);
 //    }
