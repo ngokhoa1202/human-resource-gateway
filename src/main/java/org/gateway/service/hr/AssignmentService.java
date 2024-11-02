@@ -4,6 +4,7 @@ import io.grpc.StatusRuntimeException;
 import io.quarkus.grpc.GrpcClient;
 import jakarta.enterprise.context.ApplicationScoped;
 import org.eclipse.microprofile.reactive.messaging.Emitter;
+import org.gateway.dto.department.DepartmentResponseDto;
 import org.gateway.dto.project.assignment.AssignmentMapper;
 import org.gateway.dto.project.assignment.AssignmentPayloadDto;
 import org.gateway.dto.project.assignment.AssignmentResponseDto;
